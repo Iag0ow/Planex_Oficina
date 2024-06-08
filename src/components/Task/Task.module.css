@@ -1,0 +1,35 @@
+.taskBox{
+  margin: 0.625rem;
+}
+.taskName{
+ color: white;
+ border-radius: 20px;
+ text-align: start;
+ padding: 1.2rem 2rem;
+ cursor: pointer;
+ margin: 0px;
+ font-size: 1.2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.taskNameSpan{
+ width: 27rem;
+}
+.orangeColor{
+  background-color: #ed7a37;
+}
+.blueColor{
+  background-color: #004de2;
+}
+
+.redColor{
+  background-color: #ff4001;
+}
+
+@media screen and (max-width: 474px) {
+  .taskNameSpan{
+    width: 75%;
+  }
+}

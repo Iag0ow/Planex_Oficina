@@ -1,0 +1,36 @@
+.formTask{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.inputText{
+  width: 80%;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 4px solid transparent;
+  padding: 0.37rem 1rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+.inputText::placeholder{
+  color: #8151b0;
+}
+.inputText:focus{
+  outline: none;
+  border: 4px solid aqua;
+}
+.buttonForm{
+  background-color: aqua;
+  border: none;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.37rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buttonForm:hover{
+  background-color: aquamarine;
+}

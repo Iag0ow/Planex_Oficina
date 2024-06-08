@@ -1,0 +1,43 @@
+.containerPlanex{
+  background-color: #4e2973;
+  border-radius: 20px;
+  width: 40.6rem;
+  text-align: center;
+  padding: 3.5rem 2rem;
+}
+.header{
+  margin-bottom: 2rem;
+}
+.title{
+  color: white;
+  font-size: 3rem;
+  font-family: "Zen Dots",sans-serif;
+  font-weight: 400;
+}
+.title span{
+  color: aqua;
+}
+.subTitle{
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.inforMations{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  margin-bottom: 0px;
+}
+
+.inforMations p{
+  color: white;
+}
+
+.inforMations button{
+  all: initial;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
